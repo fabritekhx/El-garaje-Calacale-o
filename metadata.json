@@ -1,0 +1,6 @@
+{
+  "name": "El Garaje Calacaleño - Comida Típica & Tradición Chagra",
+  "description": "Sitio web oficial y menú interactivo de El Garaje Calacaleño. Auténtica gastronomía ecuatoriana, especiales semanales (Viernes de Pescados, Sábados de Fritada y Caldo de Gallina, Domingos de Encebollado), reservas, eventos chagras y pedidos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

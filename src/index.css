@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-lora: 'Lora', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #150f0a;
+    color: #f7f1e7;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-cinzel);
+    letter-spacing: 0.02em;
+  }
+
+  .font-serif-body {
+    font-family: var(--font-lora);
+  }
+}
+
+/* Wood grain & subtle rustic Andean background texture */
+.bg-rustic-wood {
+  background-color: #1d140e;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(194, 94, 46, 0.15), transparent 70%),
+    radial-gradient(circle at 100% 100%, rgba(45, 74, 34, 0.12), transparent 50%),
+    linear-gradient(to bottom, #1d140e, #140d08);
+}
+
+.bg-wood-card {
+  background-color: #241912;
+  border: 1px solid rgba(194, 94, 46, 0.2);
+}
+
+.bg-wood-card-hover:hover {
+  border-color: rgba(217, 119, 6, 0.45);
+  background-color: #2b1f17;
+}
+
+.wood-border-pattern {
+  border-image: linear-gradient(to right, #78350f, #d97706, #78350f) 1;
+}
+
+/* Custom scrollbar for rustic theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #140d08;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3e2617;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c25e2e;
+}
+

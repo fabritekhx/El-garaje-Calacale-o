@@ -6,7 +6,7 @@ interface LogoEmblemProps {
   showTagline?: boolean;
 }
 
-export const LOGO_IMAGE_URL = 'https://eyzcuxspypnnwzzatnzs.supabase.co/storage/v1/object/public/Imagen/LOGO-gareje.png';
+export const LOGO_IMAGE_URL = 'https://eyzcuxspypnnwzzatnzs.supabase.co/storage/v1/object/public/Imagen/EL%20GARAJE.png';
 
 export const LogoEmblem: React.FC<LogoEmblemProps> = ({
   size = 'md',
